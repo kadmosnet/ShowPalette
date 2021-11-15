@@ -40,7 +40,9 @@
             // dxfReaderNETControl1
             // 
             this.dxfReaderNETControl1.AutoSize = true;
+            this.dxfReaderNETControl1.ContinuousHighlight = false;
             this.dxfReaderNETControl1.CustomCursor = DXFReaderNET.CustomCursorType.None;
+            this.dxfReaderNETControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             dxfDocument1.ActiveLayout = "Model";
             dxfDocument1.Comments = null;
             aciColor1.Index = ((short)(256));
@@ -76,12 +78,12 @@
             this.dxfReaderNETControl1.DXF = dxfDocument1;
             this.dxfReaderNETControl1.FileName = null;
             this.dxfReaderNETControl1.HighlightMarkerColor2 = System.Drawing.Color.Magenta;
-            this.dxfReaderNETControl1.Location = new System.Drawing.Point(3, 36);
+            this.dxfReaderNETControl1.Location = new System.Drawing.Point(0, 0);
             this.dxfReaderNETControl1.Name = "dxfReaderNETControl1";
             this.dxfReaderNETControl1.ShowAxes = false;
             this.dxfReaderNETControl1.ShowGrid = true;
             this.dxfReaderNETControl1.ShowGridRuler = false;
-            this.dxfReaderNETControl1.Size = new System.Drawing.Size(785, 402);
+            this.dxfReaderNETControl1.Size = new System.Drawing.Size(790, 442);
             this.dxfReaderNETControl1.TabIndex = 0;
             // 
             // button1
